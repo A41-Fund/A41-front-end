@@ -1,10 +1,11 @@
 import './App.css';
-import LoginForm from './LoginPage/Login';
+import SpendingDetailPage from './pages/SpendingDetailPage';
 
 function App() {
   return (
-   <LoginForm/>
-  );
-}
-
+        <div className="app">
+         <SpendingDetailPage/>
+        </div>
+      );
+    };
 export default App;

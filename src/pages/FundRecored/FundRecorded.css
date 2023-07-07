@@ -1,0 +1,41 @@
+
+.form-container {
+    max-width: 600px;
+    margin: 70px auto;
+    font-family: 'Poppins',sans-serif;
+    padding: 10px
+  }
+  
+  .form-container h1 {
+    text-align: center;
+    color: #2b5971;
+    margin-bottom: 30px;
+  }
+
+  .fund-record-form form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  .fund-record-form label {
+    font-weight: bold;
+    color: #2b5971;
+  }
+  
+  .fund-record-form input[type="text"],
+  .fund-record-form input[type="file"],
+  .fund-record-form textarea,
+  .requestDate
+  {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: 'Poppins',sans-serif;
+    box-sizing: border-box;
+  }
+
+  .purpose {
+    height: 150px;
+    resize: none;
+  }
