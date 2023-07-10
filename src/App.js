@@ -1,10 +1,10 @@
 import './App.css';
-import SpendingDetailPage from './pages/SpendingDetailPage';
+import SpendingRequestForm from './pages/SpendingRequest/SpendingRequest';
 
 function App() {
   return (
         <div className="app">
-         <SpendingDetailPage/>
+         <SpendingRequestForm/>
         </div>
       );
     };
