@@ -4,9 +4,9 @@
     margin-bottom: 20px;
     background-color: #2b5971;
     font-family: 'Poppins',sans-serif;
-    max-width: 300px;
+    width: 400px;
     color: white;
-    padding: 10px;
+    padding: 20px;
     border-radius: 20px;
   }
   .cost{

@@ -6,7 +6,7 @@ function Navbar() {
     <div class="nav">
       <input type="checkbox" id="nav-check"></input>
       <div class="nav-header">
-        <div class="nav-title">A41 Datum</div>
+        <img class="logo" src="https://www.datumhq.com/static/20e0cec1d5e27ebef7b881c14d7b5d0d/d3749/largeIcon.png" />
       </div>
       <div class="nav-btn">
         <label for="nav-check">
@@ -18,13 +18,13 @@ function Navbar() {
 
       <div class="nav-links">
         <a href="" target="_blank">
-          Choice 1
+          Home
         </a>
         <a href="" target="_blank">
-          Choice 2
+          Spending Request
         </a>
         <a href="" target="_blank">
-          Choice 3
+          Fund Record
         </a>
         <a href="" target="_blank">
           Choice 4

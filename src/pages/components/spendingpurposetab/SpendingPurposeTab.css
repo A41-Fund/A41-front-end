@@ -1,6 +1,6 @@
 .voting-card {
     border-radius: 20px;
-    max-width: 500px;
+    width: 500px;
     border: none;
     background-color: #2b5971;
     font-family: 'Poppins',sans-serif;
@@ -58,6 +58,8 @@
   .voting-buttons{
     align-items: center;
     width: 100%;
+    margin-left: 10px;
+    margin-bottom: 10px;
   }
 
   .voting-card button {
@@ -67,12 +69,40 @@
     padding: 8px 16px;
     margin-right: 10px;
     width: 90%;
-
     cursor: pointer;
 
   }
   
   .voting-card button:last-child {
     margin-right: 0;
+  }
+  
+  .voting-summary {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .percentage-line {
+    display: flex;
+    align-items: center;
+  }
+  
+  .percentage-line h5 {
+    width: 50px;
+  }
+  
+  .percentage-bar {
+    height: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+  }
+
+  .icon{
+    cursor: pointer;
   }
   
