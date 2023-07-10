@@ -1,0 +1,108 @@
+.voting-card {
+    border-radius: 20px;
+    width: 500px;
+    border: none;
+    background-color: #2b5971;
+    font-family: 'Poppins',sans-serif;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+  }
+
+  .header{
+    max-width: 100%;
+  }
+
+  .iconContainer{
+    max-width: 90%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+
+  .card-information{
+    width: 100%;
+    display: grid;
+    padding: 10px;
+    margin-left:10px;
+ }
+  
+  .voting-card h4, .voting-card i  {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .voting-card p {
+    margin: 5px 0;
+    color: white;
+  }
+  
+  .cost{
+    color: #EFC75E !important;
+    font-size: 20px;
+  }
+
+  .agreeBtn{
+    background-color: #7BC960; 
+    margin-bottom: 10px;
+  }
+
+  .denyBtn{
+    background-color: #D95D5D;
+  }
+
+  .voting-card .voting-buttons {
+    margin-top: 10px;
+  }
+  
+  .voting-buttons{
+    align-items: center;
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  .voting-card button {
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    margin-right: 10px;
+    width: 90%;
+    cursor: pointer;
+
+  }
+  
+  .voting-card button:last-child {
+    margin-right: 0;
+  }
+  
+  .voting-summary {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  .percentage-line {
+    display: flex;
+    align-items: center;
+  }
+  
+  .percentage-line h5 {
+    width: 50px;
+  }
+  
+  .percentage-bar {
+    height: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+  }
+
+  .icon{
+    cursor: pointer;
+  }
+  

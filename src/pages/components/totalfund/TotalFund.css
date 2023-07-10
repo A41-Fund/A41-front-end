@@ -1,0 +1,26 @@
+.funddisplay {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.total-container{
+    display: flex;
+    background-color: #2b5971;
+    padding: 10px 50px 10px 40px;
+    max-width: fit-content;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.total-container img{
+    width: 90px;
+}
+
+.total-container h1{
+    margin-left: 10px;
+    color: white;
+}
+
+

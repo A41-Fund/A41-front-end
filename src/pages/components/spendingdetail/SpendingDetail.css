@@ -1,0 +1,33 @@
+.voting-card-detail {
+    padding: 20px;
+  }
+  
+  .voting-card-detail h2 {
+    margin-top: 0;
+  }
+  
+  .detail-info {
+    margin-top: 20px;
+  }
+  
+  .info-item {
+    margin-bottom: 10px;
+  }
+  
+  .info-item strong {
+    font-weight: bold;
+  }
+  
+  .vote-summary {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .vote-item {
+    margin-right: 20px;
+  }
+  
+  .vote-item strong {
+    font-weight: bold;
+  }
+  

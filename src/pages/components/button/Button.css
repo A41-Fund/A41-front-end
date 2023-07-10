@@ -1,0 +1,30 @@
+.buttonContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin-top: 10px;
+  width: 250px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #2b5971;
+  color: white;
+  font-size: 20px;
+  border: none;
+  transition-duration: 0.3s;
+  font-family: 'Poppins',sans-serif;
+
+}
+
+button:hover {
+  background-color: #4c84af; /* Green */
+  color: white;
+  cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.95);
+}
