@@ -1,10 +1,12 @@
 import './App.css';
-import SpendingDetailPage from './pages/SpendingDetailPage';
+import SpendingRequestForm from './pages/SpendingRequest/SpendingRequest';
+import FundRecordForm from './pages/FundRecored/FundRecorded';
+
 
 function App() {
   return (
         <div className="app">
-         <SpendingDetailPage/>
+         <FundRecordForm/>
         </div>
       );
     };
