@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./SpendingPurposeSection.css";
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
+// import { Link } from "react-router-dom"; // Import Link from react-router-dom
 import FundSpendVotingCard from "../spendingpurposetab/SpendingPurposeTab";
 
 const VotingCardSection = () => {

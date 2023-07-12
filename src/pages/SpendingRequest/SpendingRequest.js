@@ -34,8 +34,6 @@ function SpendingRequestForm() {
   };
 
   return (
-    <>
-    <Navbar/>
     <div className="fund-record-form">
       <div className="form-container">
         <h1>Spending Request Form</h1>
@@ -87,7 +85,6 @@ function SpendingRequestForm() {
         </div>
       </div>
     </div>
-    </>
   );
 }
 

@@ -6,14 +6,12 @@ import TotalFund from "./components/totalfund/TotalFund";
 
 function Dashboard() {
   return (
-    <div className="dashboard">
-      <Navbar />
+    <div className="dashboard" style={{paddingBottom: "80px"}}>
       <div className="funddislay">
         <TotalFund />
       </div>
       <VotingCardSection />
       <FundRecordSection />
-      <Footer />
     </div>
   );
 }

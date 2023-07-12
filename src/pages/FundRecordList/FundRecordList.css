@@ -1,0 +1,23 @@
+.record-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin: 15px;
+  width: 98%;
+
+}
+
+.record {
+  padding: 5px
+}
+
+.payout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.booter {
+  position: relative;
+}

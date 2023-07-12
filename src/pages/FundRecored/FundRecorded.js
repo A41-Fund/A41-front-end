@@ -42,8 +42,6 @@ function FundRecordForm() {
   };
 
   return (
-    <>
-    <Navbar/>
     <div className="fund-record-form">
       <div className="form-container">
         <h1>Fund Recording</h1>
@@ -102,7 +100,6 @@ function FundRecordForm() {
         </div>
       </div>
     </div>
-    </>
   );
 }
 

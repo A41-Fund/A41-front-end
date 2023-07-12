@@ -22,6 +22,10 @@
     color: #2b5971;
   }
   
+  .fund-record-form{
+    padding-bottom: 60px;
+  }
+  
   .fund-record-form input[type="text"],
   .fund-record-form input[type="file"],
   .fund-record-form textarea,
